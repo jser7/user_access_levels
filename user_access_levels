@@ -30,7 +30,7 @@ def password(level):
         print("Access Denied")
 
 
-def checkLevel(dict_name):
+def check_level(dict_name):
     # dict_name is the name the user inputted at the start.
     # If dict_name is found in the list of users in the system, then check their access level.
     if dict_name in name_level_dict:
@@ -40,4 +40,4 @@ def checkLevel(dict_name):
         print("Not recognised. Level 1 access granted.")
 
 
-checkLevel(name)
+check_level(name)
